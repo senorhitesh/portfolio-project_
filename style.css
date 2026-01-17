@@ -189,6 +189,7 @@ nav:hover .csDiv h5 span{
     justify-content: center;
     align-items: center;
     position: relative;
+    z-index: 0;
 }
 
 .line-child{
