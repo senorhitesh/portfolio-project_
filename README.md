@@ -8,7 +8,7 @@
 [![Smooth Scroll](https://img.shields.io/badge/Smooth%20Scroll-Locomotive-7C3AED?style=flat)](https://github.com/locomotivemtl/locomotive-scroll)
 [![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-[View Demo](#) • [Report Bug](#) • [Request Feature](#)
+[View Live Demo](https://personal-portfolio-trial.vercel.app/) • [Report Bug](#) • [Request Feature](#)
 
 ---
 
@@ -16,7 +16,9 @@
 
 ## 🎯 Overview
 
-An immersive, performance-focused portfolio experience built from the ground up with cutting-edge web animation techniques. This project demonstrates mastery of smooth scrolling, custom cursor interactions, and sophisticated micro-animations—all while maintaining buttery-smooth 60fps performance.
+An immersive, performance-focused portfolio experience built from the ground up with cutting-edge web animation techniques. This project showcases a blend of design and development expertise through case studies in AI/ML, Fintech, Real Estate, E-Commerce, and Web3 domains.
+
+Features motion-first design concepts, interactive hover-based video previews, and a smooth scrolling experience that creates a premium, agency-level feel.
 
 > **Built for developers and designers** who appreciate the craft behind seamless user experiences.
 
@@ -41,8 +43,9 @@ An immersive, performance-focused portfolio experience built from the ground up 
 - **Performance Conscious**: Transform-based scrolling avoids layout thrashing
 
 ### ✨ Polished Micro-interactions
-- **Animated SVG Elements**: Arrows and icons respond with spring-based physics
-- **Hover Choreography**: Carefully timed transitions create delightful feedback loops
+- **Animated SVG Elements**: Asterisk decorations and arrows respond with spring-based physics
+- **Infinite Scroll Marquees**: Tech stack icons and case study tags flow seamlessly
+- **Hover Choreography**: Project cards reveal video previews with carefully timed transitions
 - **Accessibility First**: All interactions maintain focus states and keyboard navigation
 
 ---
@@ -176,9 +179,13 @@ cd portfolio
 # Install dependencies (if using package manager)
 npm install
 
-# Open in browser
+# Open in browser or deploy to Vercel
 open index.html
+# or
+vercel --prod
 ```
+
+**Live Site:** [https://personal-portfolio-trial.vercel.app/](https://personal-portfolio-trial.vercel.app/)
 
 **No build process required** – this is intentionally built with vanilla JavaScript to showcase fundamental web platform skills.
 
@@ -187,11 +194,12 @@ open index.html
 ## 🗺️ Roadmap
 
 - [ ] Add dark/light theme toggle with GSAP color transitions
-- [ ] Implement WebGL background with Three.js
-- [ ] Create interactive skill visualization
-- [ ] Add page transition animations
+- [ ] Expand case studies with detailed project breakdowns
+- [ ] Implement blog section with MDX integration
+- [ ] Add contact form with email integration
+- [ ] Create interactive skill visualization with progress animations
 - [ ] Optimize for mobile with reduced motion preferences
-- [ ] Integrate analytics to measure interaction engagement
+- [ ] Add page transition animations between sections
 
 ---
 
@@ -203,15 +211,19 @@ This project is a living portfolio piece that evolves with web platform capabili
 
 **For developers:** Feel free to fork, experiment, and reach out with questions about implementation details.
 
+📧 **Get in touch:** [senorhitesh@gmail.com](mailto:senorhitesh@gmail.com)  
+💼 **Connect on LinkedIn:** [linkedin.com/in/jm-suthar-9343513a5](https://www.linkedin.com/in/jm-suthar-9343513a5)
+
 ---
 
 ## 👨‍💻 Author
 
 **Hitesh Suthar**  
-Aspiring Full-Stack Developer • Frontend Engineering Enthusiast
+Aspiring Full-Stack Web Developer • Design & Development Enthusiast
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](#)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://personal-portfolio-trial.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jm-suthar-9343513a5)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:senorhitesh@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](#)
 
 > *"Great design is invisible. Great animation makes it unforgettable."*
