@@ -644,10 +644,33 @@ font-family: "Gilroy";
     transform: rotate(-45deg) translate(6px);
   }
 }
+@media (width <= 980px) {
+    /* Page 1 */
+.devtag{
+    margin-top: 10px;
+    display: flex;
+    gap:.5px;
+    font-size: 1.1rem;
+}
+#bio{
+    margin-top: 2vh;
+    font-size: 1.1rem;
+    width: 90%;
+}
+.skills h4{
+    font-size: .8rem;
+}
+.moving-div{
+   position: absolute;
+   bottom: 10%;
+   width: 70%;
+   white-space: nowrap;
+   padding: 1rem;
+   overflow: hidden;
+   z-index: 2;
 
-
-.page5{
-    height: 50vh;
-    width: 100%;
-    color: white;
+}
+.moving_img img {
+    height: 40px;
+}
 }
