@@ -700,4 +700,45 @@ font-family: "Gilroy";
     font-size: 1.1rem;
     text-align: left;
 }
+    /* Page 4 */
+ 
+.page4{
+    padding: 25px 10px;
+}
+
+.section{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+}
+.part1-left{
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 20px;
+}
+.part1-left p{
+    font-size: 1.22rem;
+}
+.part1-right{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: none;
+
+}
+.part1-right img{
+    height: 95%;
+    width: 95%;
+}
+.part1-right video{
+    width: 100%;
+}
+
 }
