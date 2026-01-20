@@ -673,4 +673,31 @@ font-family: "Gilroy";
 .moving_img img {
     height: 40px;
 }
+    /* Page 3 */
+.page3{
+ height: 100%;
+ padding: 12vh 6vh;
+}
+.Avobe h1 span{ 
+  font-size: 5.8rem;
+}
+.decoratives{
+    align-self: baseline;
+    z-index: 1;
+}
+.decoratives img{
+ width: 45px;
+ height: 45px;
+    z-index: 1;
+}
+
+.theUnfiltered h2{
+    font-size: 1.3rem;
+    text-align: left;
+
+}
+.theUnfiltered p{
+    font-size: 1.1rem;
+    text-align: left;
+}
 }
