@@ -773,3 +773,182 @@ width: 20vh;
     font-size: 1.1rem;
 }
 }
+
+
+@media (width <= 360px) {
+    /* Page 1 */
+    .line-child{
+    font-size: 3rem;
+    line-height: 8vw;
+}
+.devtag{
+    margin-top: 10px;
+    display: flex;
+    gap:.5px;
+    font-size: 1.1rem;
+}
+#bio{
+    margin-top: 2vh;
+    font-size: 1.1rem;
+    width: 90%;
+}
+.skills h4{
+    font-size: .8rem;
+}
+.moving-div{
+   position: absolute;
+   bottom: 10%;
+   width: 70%;
+   white-space: nowrap;
+   padding: 1rem;
+   overflow: hidden;
+   z-index: 2;
+
+}
+.moving_img img {
+    height: 40px;
+}
+
+/* Page 3 */
+.page3{
+ height: 100%;
+ padding: 1rem 2rem;
+}
+.Avobe h1 span{ 
+  font-size: 3rem;
+}
+.decoratives{
+    align-self: baseline;
+    z-index: 1;
+}
+.decoratives img{
+ width: 25px;
+ height: 25px;
+    z-index: 1;
+}
+
+.theUnfiltered h2{
+    font-size: 1rem;
+    text-align: left;
+
+}
+.theUnfiltered p{
+    font-size: .8rem;
+    text-align: left;
+}
+
+/* Page 4 */
+ 
+.page4{
+    padding: 25px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section{
+    height: 100%;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 12px;
+}
+.part1-left{
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 20px;
+    text-align: left;
+}
+.part1-left p{
+    text-align: left;
+    font-size: 1em;
+}
+
+
+/* Page 2 */
+
+.page2{
+ padding: 1rem ;
+}
+
+.left_Part{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-self: flex-start;
+    justify-content:space-between;
+    flex-direction: column;
+    padding:1rem 1rem;
+}
+ .right_Part{
+    height: 100%;
+    width: 50%; 
+    display: flex;
+    align-self: flex-start;
+    justify-content:space-between;
+    flex-direction: column;
+}
+
+.left_Part{
+    font-size: 1rem;
+    gap: 5px;
+}
+.left_Part p span{
+    color: #afafaf;
+     font-style: italic;
+
+}
+
+/* Right Part */
+.projects-divs{
+    border-bottom: 1px solid rgb(41, 41, 41);
+    padding: 6vh 3vh 7vh 3vh;
+    height: 30.33%;
+    transition: all .2s ease-in;
+    position: relative;
+    margin-top: 10px;
+
+}
+.projects-divs .arrow{
+    position: absolute;
+    top:0;
+    right: 0;
+    margin: 0px 50px 0 0;
+    overflow: hidden;
+    transform: translate(0, 0);
+    opacity: .3;
+}
+.projects-divs:hover{
+    border-bottom: 2px solid rgb(207, 207, 207);
+}
+
+@keyframes arrow{
+    0%{
+            transform: translate(0px, -0px);
+    }
+    50%{
+            transform: translate(2.5px, -2.5px);
+    }
+    100%{
+        transform: translate(5px, -5px);
+    }
+}
+.projects-divs:hover .arrow{
+    animation: arrow .2s ease-in forwards;
+    opacity: 1;
+}
+.projects-divs img{
+height: 25vh;
+width: 25vh;
+object-fit:cover;
+object-position: center;
+border-radius: 50%;
+opacity: 0;
+scale: 0;
+}
+
+.projects-divs h3{
+    font-weight: 400;
+    font-size: .8rem;
+}
+}
