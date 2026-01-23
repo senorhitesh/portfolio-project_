@@ -952,3 +952,44 @@ scale: 0;
     font-size: .8rem;
 }
 }
+.onlyforMobile{
+    display:none;
+}
+@media (max-width: 746px) {
+  nav {
+    justify-content: flex-start;
+    padding: 1rem 1.5rem;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .navLinks {
+    display: none;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  .nav-bottom {
+    display: none;
+  }
+
+  nav:hover .nav-bottom {
+    height: 0;
+    bottom: 0;
+    margin: 0;
+  }
+
+  nav h1 svg {
+    width: 80px;
+    height: auto;
+  }
+  .onlyforMobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 18px;
+  }
+
+}
