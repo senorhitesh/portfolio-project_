@@ -1098,3 +1098,11 @@ body {
         padding: 8px 18px;
     }
 }
+.mobileMenu{
+    top:0;
+    position: fixed;
+    background-color: #111;
+    z-index: 10000; 
+    height: 100%;
+    width: 100%;
+}
