@@ -1098,11 +1098,72 @@ body {
         padding: 8px 18px;
     }
 }
+
 .mobileMenu{
+    display: none;
     top:0;
-    position: fixed;
+    position: absolute;
     background-color: #111;
     z-index: 10000; 
     height: 100%;
     width: 100%;
+}
+.mobileNav{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    padding: 2vw 4vw;
+    justify-content:space-between;
+    background-color: #111;
+}
+.menu-Items{
+    margin-top: 30%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    z-index: 1000;
+    font-size: 1.4rem;
+}
+
+.tag{
+    width: 100%;
+}
+
+.tag p{
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+}
+.tag p:hover{
+    background-color: #222;
+}
+
+.btn button{
+    display: flex;
+    background-color: #1d2129;
+    border-radius: 40px;
+    align-items: center;
+    border: none;
+    padding: 7px 20px;
+    cursor: pointer;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 90%;
+    justify-content: center;
+}
+.btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobileMenu.active {
+    display: block;
 }

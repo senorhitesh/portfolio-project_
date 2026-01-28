@@ -16,14 +16,12 @@ tl.from(".page1 h1,.page1 p, .page1 div", {
   ease: "power4.inOut",
   duration: 1
 });
-tl.from("nav", {
+tl.from("onlyforDesktop", {
   translateY: -100,
   opacity: 0,
   ease: "power4.inOut",
   duration: 1
 })
-
-
 
 let hoverDivs = document.querySelectorAll(".projects-divs");
 let arrow = document.querySelector(".arrow");
@@ -122,3 +120,22 @@ function smoothScroll() {
   ".main".refresh();
 }
 smoothScroll()
+
+// ... existing scroll code ...
+
+// --- FIX 1: Correct Selectors ---
+const mobileMenu = document.querySelector(".mobileMenu");
+const openBtn = document.querySelector(".open-menu-btn"); // Selects the specific open button
+const closeBtn = document.querySelector(".close-menu-btn"); // Selects the specific close button
+
+function toggleMenu() {
+  mobileMenu.classList.toggle("active");
+}
+
+// Add Event Listeners
+if (openBtn) {
+  openBtn.addEventListener("click", toggleMenu);
+}
+if (closeBtn) {
+  closeBtn.addEventListener("click", toggleMenu);
+}
